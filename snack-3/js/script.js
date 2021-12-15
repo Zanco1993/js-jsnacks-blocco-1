@@ -19,13 +19,27 @@
 // nel console
 // i rappresenta l'esponente
 
+// let result = 0;
+// let i = 0;
+// while (i <= 1000) {
+//     result = Math.pow(2, i);
+//     if (result > 1000) {
+//         break;
+//     }
+//     console.log(result);
+//     i++;
+// }
+
+// Terzo metodo
+// come il secondo metodo ma faccio uscire dal ciclo solo quando è 1024
+
 let result = 0;
 let i = 0;
 while (i <= 1000) {
     result = Math.pow(2, i);
+    console.log(result);
+    i++;
     if (result > 1000) {
         break;
     }
-    console.log(result);
-    i++;
 }
