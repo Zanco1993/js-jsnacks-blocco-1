@@ -5,13 +5,14 @@
 // chiedo all'utente un numero e poi cambio il tipo in stringa 
 // assegandolo in una nuova variabile
 
-let numUser = parseInt(prompt("Inserisci un numero di 4 cifre"))
+let numUser = parseInt(prompt("Inserisci un numero di 4 cifre"));
 let listNumber = numUser.toString()
 let somma = 0
 
 //se l'utente inserisce un numero di 4 cifre allora esegui il for
 //altrimenti esci
-if (numUser === 4) {
+
+if (listNumber.length === 4) {
     for (let i = 0; i < listNumber.length; i++){
         //utilizzo il parseInt altrimenti concatenerebbe la stringa 
         //invece del numero
