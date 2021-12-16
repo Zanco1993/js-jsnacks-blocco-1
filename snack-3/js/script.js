@@ -35,11 +35,9 @@
 
 let result = 0;
 let i = 0;
-while (i <= 1000) {
+while (Math.pow(2, i) < 1000) {
     result = Math.pow(2, i);
     console.log(result);
     i++;
-    if (result > 1000) {
-        break;
-    }
+    
 }

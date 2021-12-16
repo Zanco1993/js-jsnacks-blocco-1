@@ -10,6 +10,6 @@
 let numUser = parseInt(prompt("Digita un numero"));
 let cube = 0
 
-for(i = 0; i < numUser; i++){
+for(i = 1; i <= numUser; i++){
     cube = console.log(Math.pow(i, 3));
 }
