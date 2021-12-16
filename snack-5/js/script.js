@@ -11,7 +11,7 @@ let num;
 do {
    num = parseInt(prompt("Inserisci un numero"));
    listNumber.push(num);
-   somma += parseInt(listNumber);   
+   somma += parseInt(num);   
 
 } while (somma < 50);
 
